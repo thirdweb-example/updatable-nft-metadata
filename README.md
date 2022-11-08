@@ -46,8 +46,8 @@ Finally, we batch upload the NFTs using the centralized metadata files:
 ```js
 try {
   await drop.createBatch([
-    "https://my-json-server.typicode.com/avneesh0612/updatable-metadata/nfts/0",
-    "https://my-json-server.typicode.com/avneesh0612/updatable-metadata/nfts/1",
+    "https://my-json-server.typicode.com/thirdweb-dev/updatable-nft-metadata/nfts/0",
+    "https://my-json-server.typicode.com/thirdweb-dev/updatable-nft-metadata/nfts/1",
   ]);
   console.log("uploaded all nfts");
 } catch (error) {
